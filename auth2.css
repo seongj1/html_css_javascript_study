@@ -1,0 +1,119 @@
+body {
+    overflow-y: scroll;
+}
+
+.container {
+    display: flex;
+}
+
+.m-container {
+    display: flex;
+    width: 100%;
+}
+
+.a-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 32px;
+
+    margin: 32px auto 0px;
+    height: 799px;
+    width: 935px;
+    
+
+}
+
+.l-content {
+    margin: 0px 32px 12px 0px;
+
+    width: 380px;
+}
+
+.l-content-img {
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.r-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-top: 12px;
+    width: 350px;
+    height: 755px;
+}
+
+.signin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 350px;
+    height: 392px;
+
+    margin-bottom: 10px;
+    border: solid 1px black;
+    border-radius: 1px;
+    padding: 10px 0px;
+
+}
+
+.logo {
+    margin: 22px auto 12px ;
+
+}
+
+.login-form {
+    margin: 0 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 268px;
+    height: 213px;
+}
+
+.text {
+    position: relative;
+    width: 100%;
+    height: 38px;
+    border: none;
+    background: none;
+}
+
+.input-text {
+    position: relative;
+    padding: 9px 8px 7px;
+    width: 100%;
+    height: 100%;
+}
+
+.username {
+    position: absolute;
+    top: 9px;
+    left: 8px;
+    z-index: 1;
+}
+
+.signup {
+    display: flex;
+    width: 350px;
+    height: 63px;
+    
+    margin-bottom: 10px;
+    border: solid 1px black;
+    padding: 10px 0px;
+}
+
+.download {
+    display: flex;
+    width: 350px;
+    height: 102px;
+
+}
+
+.f-container {
+    display: flex;
+}
+
