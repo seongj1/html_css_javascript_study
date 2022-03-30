@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>instagram</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./signup.css">
     <script src="https://kit.fontawesome.com/ede2458143.js" crossorigin="anonymous"></script>
 </head>
 
@@ -32,38 +32,98 @@
                                 </div>
                                 <div class="input-items">
                                     <label for="number-email">휴대폰 번호 또는 이메일 주소</label>
-                                    <input type="text">
+                                    <input type="text" id="number-email">
                                 </div>
                                 <div class="input-items">
                                     <label for="name">성명</label>
-                                    <input type="text">
+                                    <input type="text" id="name">
                                 </div>
                                 <div class="input-items">
                                     <label for="username">사용자이름</label>
-                                    <input type="text">
+                                    <input type="text" id="username">
                                 </div>
                                 <div class="input-items">
                                     <label for="password">비밀번호</label>
-                                    <input type="password">
+                                    <input type="password" id="password">
                                 </div>
-                                <div></div>
+                                <div class="button-box">
+                                    <button class="signup-button">가입</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="input-box">
-
+                        <p class="question">계정이 있으신가요? <a href="" class="a-sign">로그인</a></p>
                     </div>
                     <div class="input-box">
-
+                        <p class="download-text">앱을 다운로드 하세요.</p>
+                        <div class="download-button">
+                            <a href=""><img src="./imeges/apple_download.png" class="apple"></a>
+                            <a href=""><img src="./imeges/google_download.png" class="google"></a>
+                        </div>
                     </div>
                 </div>
             </div>
 
         </main>
         <footer id="f-container">
-
+            <div class="f-box">
+                <div class="a-box">
+                    <a href="" class="a-teg">Meta</a>
+                    <a href="" class="a-teg">소개</a>
+                    <a href="" class="a-teg">블로그</a>
+                    <a href="" class="a-teg">채용정보</a>
+                    <a href="" class="a-teg">도움말</a>
+                    <a href="" class="a-teg">API</a>
+                    <a href="" class="a-teg">개인정보처리방침</a>
+                    <a href="" class="a-teg">약관</a>
+                    <a href="" class="a-teg">인기 계정</a>
+                    <a href="" class="a-teg">해시태그</a>
+                    <a href="" class="a-teg">위치</a>
+                    <a href="" class="a-teg">Instagram Lite</a>
+                </div>
+                <div class="language">
+                    <select name="한국어" id="select-language">
+                        <option value="한국어">한국어</option>
+                    </select>
+                    <div class="sources">© 2022 Instagram from Meta</div>
+                </div>
+            </div>
         </footer>
     </section>
+    <script>
+        const items = document.querySelectorAll(".input-items");
+
+        // for (let i = 0; i < items.length; i++) {
+        //     items[i].querySelector("input").addEventListener("keypress", function () {
+        //         items[i].querySelector("label").className = "hidden";
+        //     });
+        //     items[i].querySelector("input").addEventListener("blur", function () {
+        //         if (items[i].querySelector("input").value == "" || items[i].querySelector("input").value == null) {
+        //             items[i].querySelector("label").className = "";
+        //         }
+        //     });
+        // }
+        const toHidden = (event) => {
+            if (event.target.value == "" || event.target.value == null) {
+                event.target.parentElement.querySelector("label").className = "";
+            } else {
+                event.target.parentElement.querySelector("label").className = "hidden";
+            }
+        }
+        const toShow = (event) => {
+            if (event.target.value == "" || event.target.value == null) {
+                event.target.parentElement.querySelector("label").className = "";
+            }
+        }
+
+        for (let i = 0; i < items.length; i++) {
+            items[i].querySelector("input").onkeydown = toHidden;
+            items[i].querySelector("input").onblur = toShow;
+            console.log(items[i]);
+        }
+
+    </script>
 </body>
 
 </html>

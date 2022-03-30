@@ -54,6 +54,7 @@
 .input-content .input-box:nth-last-child(2) {
     display: flex;
     align-items: center;
+    justify-content: center;
 
     width: 350px;
     height: 70px;
@@ -199,17 +200,154 @@
     width: 258px;
     height: 36px;
     padding: 9px 0px 7px 8px;
-
     font-size: 12px;
     background-color: #fafafa;
+}
+
+.button-box {
+    display: flex;
+    width: 348px;
+    height: 46px;
+
+}
+
+.signup-button {
+    display: flex;
+    justify-content: center;
+
+    border: none;
+    border-radius: 4px;
+    margin: 8px 40px;
+    width: 258px;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    
+
+    background-color: #93cef6;
+
+}
+
+.question {
+    margin: 15px;
+    font-size: 14px;
+    text-align: center;
+    color: #262626;
+}
+
+.a-sign {
+    font-size: 14px;
+    color: #0095f6;
+    text-decoration: none;
+}
+
+.download-text {
+    font-size: 14px;
+    text-align: center;
+    line-height: 18px;
+    margin: 10px 20px;
+    color: #262626;
+
+}
+
+.download-button {
+    display: flex;
+    justify-content: center;
+    
+    margin: 10px 0px;
+    width: 350px;
+    height: 44px;
+
+}
+
+.apple {
+    width: 136px;
+    height: 40px;
+    margin-right: 8px;
+
+}
+
+.google {
+    width: 134.28px;
+    height: 40px;
+
+}
+
+.hidden {
+    display: none;
 }
 
 
 #f-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     height: 134px;
 
     padding: 0px 16px;
+}
+
+
+.f-box {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 52px;
+    width: 930px;
+    height: 82px;
+
+}
+
+.a-box {
+    display: flex;
+    justify-content: center;
+
+    width: 930px;
+    height: 23px;
+    margin-top: 24px;
+
+}
+
+.a-teg {
+    display: block;
+    margin: 0px 8px 12px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #8e8e8e;
+}
+
+.language {
+    display: flex;
+    justify-content: center;
+    margin: 12px 0px;
+    width: 930px;
+    height: 11px;
+
+}
+
+#select-language {
+    width: 60px;
+    height: 16px;
+    cursor: pointer;
+    color: #8e8e8e;
+    font-size: 12px;
+    line-height: 16px;
+    border: none;
+    background-color: #fafafa;
+}
+
+.sources {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    color: #8e8e8e;
+    line-height: 16px;
+    margin-left: 16px;
+
 }
