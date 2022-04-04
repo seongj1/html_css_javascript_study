@@ -14,9 +14,10 @@
     margin-top: 12px;
 }
 
-.tiem-box .item-group:nth-of-type(1){
+.tiem-box .item-group:nth-of-type(1) {
     height: 490px;
 }
+
 .item-group {
     margin-bottom: 10px;
     padding: 10px 0px;
@@ -37,7 +38,7 @@
     height: 51px;
 }
 
-.b-logo > img {
+.b-logo>img {
     width: 175px;
 
 }
@@ -170,12 +171,9 @@
     justify-content: center;
     align-items: center;
 
-    padding: 3px;
     margin-right: 8px;
-    font-weight: 500;
-    color: #262626;
-    width: 100%;
-    max-width: 85px;
+    white-space: nowrap;
+
     cursor: pointer;
 }
 
@@ -183,19 +181,19 @@
     margin: 8px 40px;
 
     border: none;
-    border-radius: 3px; 
+    border-radius: 3px;
     padding: 5px 9px;
-    
+
     width: 267.78px;
     height: 30px;
-    
+
     color: white;
-    
+
     background-color: #0095f6;
     cursor: pointer;
 }
 
-.item-box .item-group:nth-of-type(2)>p{
+.item-box .item-group:nth-of-type(2)>p {
     text-align: center;
     margin: 15px;
 }

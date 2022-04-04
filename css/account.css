@@ -1,0 +1,230 @@
+.r-box {
+    display: flex;
+
+
+    background-color: #fafafa;
+
+}
+
+.m-box {
+    display: flex;
+    align-items: center;
+
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+
+    max-width: 935px;
+    width: 100%;
+    overflow: hidden;
+    margin: 30px auto 0px;
+
+    background-color: #fff;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    list-style: none;
+    width: 237px;
+    height: 812px;
+
+
+    border-right: 1px solid #dbdbdb;
+
+}
+
+.list-content {
+    width: 236px;
+    height: 52px;
+    align-items: center;
+
+    position: relative;
+}
+
+.list-content a {
+    position: absolute;
+
+    width: 236px;
+    height: 52px;
+
+    padding: 16px 16px 16px 30px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.t-box {
+    display: flex;
+    width: 236px;
+    height: 100px;
+}
+
+.meta-center {
+    display: flex;
+    width: 236px;
+    height: 172px;
+}
+
+.a-container {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+}
+
+.p-box {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 32px;
+
+    height: 42px;
+}
+
+.p-left-box {
+    display: flex;
+
+    width: 38px;
+    height: 38px;
+
+    margin: 2px 32px 0px 124px;
+}
+
+.p-left-box button {
+    width: 100%;
+    height: 100%;
+    line-height: 18px;
+    border: none;
+    outline: none;
+
+    background-color: #fff;
+}
+
+.p-left-box button>img {
+    width: 38px;
+    height: 38px;
+}
+
+.p-right-box {
+    display: flex;
+    flex-direction: column;
+
+    height: 42px;
+    margin-right: 20px;
+
+}
+
+.m-username {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 2px;
+
+    white-space: nowrap;
+
+}
+
+.p-right-box button {
+    display: inline-block;
+    text-align: left;
+
+    font-weight: 500;
+    font-size: 14px;
+    border: none;
+    background-color: #fff;
+    color: #0095f6;
+
+}
+
+.user-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 100%;
+    height: 706px;
+
+    margin: 16px 0px;
+
+}
+
+.f-content {
+    display: flex;
+    justify-content: flex-start;
+
+    margin-bottom: 16px;
+    width: 100%;
+    height: auto;
+
+}
+
+.name-box {
+    display: flex;
+    justify-content: flex-end;
+
+    padding: 0px 32px;
+    margin-top: 6px;
+
+    width: 194px;
+    height: auto;
+
+}
+
+.name-box label {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.name-info {
+    display: flex;
+
+    padding-right: 60px;
+    width: 502px;
+}
+
+.name-info-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 355px;
+    width: 100%;
+}
+
+.name-info-box input {
+    font-size: 16px;
+    height: 32px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #dbdbdb;
+
+
+    color: #8e8e8e;
+    background-color: #efefef;
+
+}
+
+.name-content {
+    display: flex;
+    justify-content: flex-start;
+
+    margin: 16px 0px 8px;
+    color: #8e8e8e;
+}
+
+.name-position {
+    margin-bottom: 16px;
+    font-size: 12px;
+    line-height: 18px;
+
+}
+
+.name-position a {
+    font-size: 13px;
+    line-height: 16px;
+
+    margin-left: 4px;
+
+
+    color: #0095f6;
+
+}

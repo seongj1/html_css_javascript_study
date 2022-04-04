@@ -3,14 +3,25 @@ const password_visibel = document.querySelector('.password-visible');
 const input_type = document.querySelector('#password');
 
 password_visibel.onclick = () => {
-    if (input_type.type == 'password') {
-        input_type.type = 'text';
-        password_visibel.innerHTML = '숨기기';
+    const input = input_datas[3].querySelector('input');
+    if (input.type == 'password') {
+        input.type = 'text';
+        password_visibel.innerText = '숨기기';
     } else {
-        input_type.setAttribute('type', 'password');
-        password_visibel.innerHTML = '비밀번호 표시';
+        input.type = 'password';
+        password_visibel.innerText = '비밀번호 표시';
     }
 }
+
+// password_visibel.onclick = () => {
+//     if (input_type.type == 'password') {
+//         input_type.type = 'text';
+//         password_visibel.innerHTML = '숨기기';
+//     } else {
+//         input_type.setAttribute('type', 'password');
+//         password_visibel.innerHTML = '비밀번호 표시';
+//     }
+// }
 
 for (let i = 0; i < input_datas.length; i++) {
     const label = input_datas[i].querySelector('label')
